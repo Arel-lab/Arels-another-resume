@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 76, 83);
+    margin: 0;
+    padding: 21px;
+}
+
+header {
+    text-align: cente;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+}
+
+
+.left-column {
+    font-size: 12px;
+}
+
+.left-column section {
+    margin-bottom: 20px;
+}
+
+
+.right-column {
+    font-size: 12px;
+}
+
+.right-column section {
+    margin-bottom: 20px;
+}
+
+
+.contact-info, .education, .languages {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+
+section h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+
+.profile, .work-experience {
+    font-size: 12.5px;
+}
+
+
+.experience-title {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.experience-date {
+    float: right;
+    font-style: italic;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li:before {
+    content: '•';
+    margin-right: 5px;
+    color: #333;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
